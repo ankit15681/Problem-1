@@ -12,3 +12,6 @@ After installtion of required packages. Run the following command.
 flask run
 # then open your web browser and go to the url.
 https://localhost:5000
+
+#Demo is also available at 
+https://zevi-frontend1.herokuapp.com/
