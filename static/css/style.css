@@ -1,33 +1,46 @@
-.app{
-    width: 100%;
-    height: 100%;
-    color: black;
+/* initial css reset */
+.app {
+  width: 100%;
+  height: 100%;
+  color: black;
 }
-.container{
- display: flex;
- flex-direction: column;
 
+/* container*/
+.container {
+  display: flex;
+  flex-direction: column;
 }
-.card{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-grow: 0.5;
-    margin: auto 5rem;
+
+/* card*/
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-grow: 0.5;
+  margin: auto 5rem;
 }
 
 .btnCard {
-    flex-grow: 1;
-padding: 1rem;
-border: 1px solid black;
-margin: 1rem;
-flex: 1;
-
+  flex-grow: 1;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  align-content: center;
+  flex: 1;
+}
+.btnCard button{
+ margin: 10px 10px;
+}
+.btnCard input{
+ margin: 10px 10px;
+}
+.btnCard input[type="color"]{
+margin-top: 0px;
 }
 .textCard {
-flex-grow: 1;
-padding: 1rem;
-border: 1px solid black;
-margin: 1rem;
-flex: 1;
+  flex-grow: 1;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
+  flex: 1;
 }
